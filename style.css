@@ -5,13 +5,13 @@
 }
 
 :root {
-  --bg-color: #121214;
+  --bg-color: #FFFFFF;
 
   --base-color: 194;
   --bg-primary-light: hsla(var(--base-color), 100%, 63%, 0.13);
   --primary-color: hsl(var(--base-color), 100%, 63%);
 
-  --text-color: #FFFFFF;
+  --text-color: #000000;
   --button-color: #42D3FF;
   --card-color: #02799D;
 
@@ -123,7 +123,7 @@ button svg {
 }
 
 .active svg path {
-  fill: var(--text-color);
+  fill: var(--bg-color);
 }
 
 .active:hover{
